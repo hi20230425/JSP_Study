@@ -37,8 +37,11 @@
 		conn = DriverManager.getConnection(url, "C##HR2", "1234"); 		
 		connect = true; 
 			
-		} catch (Exception e) {		
-		connect = false; 		
+		} catch (Exception e) {	
+			
+			//e.printStackTrace(); 
+			
+			connect = false; 		
 		}
 		
 	  // connect 변수가 true : DB 접속 성공 , false : DB 접속 실패 
