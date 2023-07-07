@@ -66,7 +66,9 @@
 				
 			%>
 			
-			<tr><td> a </td> <td> b</td><td> c </td><td> d </td><td> e </td></tr>
+			<tr><td> <%= rs.getString(1) %> </td> <td> <%= rs.getString(2) %></td><td><%= rs.getString(3) %></td>
+				<td> <%= rs.getString(4) %> </td><td> <%= rs.getString(5) %> </td>
+			</tr>
 					
 			<% 
 			
